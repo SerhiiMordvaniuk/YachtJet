@@ -50,6 +50,7 @@ max-width: 375px;
 padding: 0 20px;
 margin: 0 auto;
 }
+
 .hero-wrapped{
 background: url(./images/hero/hero-mob2x.jpg);
 background-repeat: no-repeat;
@@ -103,3 +104,4 @@ color: #fbfbfb;
 margin: 0 auto;
 
 }
+
