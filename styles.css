@@ -42,7 +42,8 @@ address {
 }
 
 body {
-    background-color: rgb(3, 3, 17);
+    background-color: #0E1823;
+    font-family: "Inter", sans-serif;
 }
 
 .wrapped {
@@ -51,22 +52,26 @@ padding: 0 20px;
 margin: 0 auto;
 }
 
-.hero-wrapped{
-background: url(./images/hero/hero-mob2x.jpg);
-background-repeat: no-repeat;
-background-position: center;
-background-size:contain;
-}
+
 
 .container {
 max-width: 335px;
 max-width: 320px;
-margin: 0 auto;
+margin: 0 auto 80px;
+}
+
+/*---------------HERO--------------*/
+
+.hero-wrapped {
+    background: linear-gradient(360deg, rgba(17, 19, 31, 0.1) 15.05%, rgba(17, 19, 31, 0.1) 75.3%, rgba(17, 19, 31, 0.1) 98.27%),url(./images/hero/hero-mob2x.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .hero-container {
     padding: 260px 20px;
-    max-width: 335px;
+    margin-bottom: 0;
 }
 
 .hero-title {
@@ -76,8 +81,7 @@ font-weight: 500;
     letter-spacing: -0.02em;
     text-align: center;
     color: #fbfbfb;
-    margin-bottom: 24px;
-
+     margin-bottom: 24px;
 }
 
 .hero-txt {
@@ -102,6 +106,162 @@ line-height: 129%;
 letter-spacing: -0.02em;
 color: #fbfbfb;
 margin: 0 auto;
+display: block;
+}
+
+/*---------------ABOUT--------------*/
+.about {
+    position: relative;
+    bottom: 40px;
+}
+
+.about-container {
+    border-radius: 24px;
+    width: 335px;
+    background-color: #fbfbfb;
+}
+
+.about-txt-container {
+    padding: 20px 40px 40px;
+}
+
+.about-title {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 100%;
+    letter-spacing: -0.02em;
+    color: #1b414b;
+    max-width: 295px;
+    margin-bottom: 40px;
+}
+
+.about-item {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: -0.02em;
+    color: #1b414b;
+    margin-bottom: 20px;
 
 }
 
+.about-txt {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 117%;
+    letter-spacing: -0.02em;
+    color: #040306;
+    opacity: 0.4;
+}
+
+.about-img {
+    border-radius: 22px;
+}
+
+
+/*---------------JACHTLIST-------------*/
+
+.jachtlist-title {
+font-weight: 500;
+    font-size: 28px;
+    line-height: 100%;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #fbfbfb;
+    margin-bottom: 40px;
+}
+
+.jachtlist-table-container{
+border-radius: 24px;
+background-color: #fbfbfb;
+padding: 16px 16px 32px;
+margin-bottom: 40px;
+}
+
+.jachtlist-img {
+border-radius: 24px;
+    width: 302px;
+    height: 240px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 32px;
+}
+
+.jachtlist-line {
+border: none;
+background-color: rgba(4, 3, 6, 0.1);
+height: 1px;
+width: 272px;
+margin-bottom: 16px;
+}
+
+.jachtlist-table-titles {
+    display: flex;
+    justify-content: left;
+    padding: 0 16px;
+}
+
+.jachtlist-table-titles-1 {
+font-weight: 500;
+    font-size: 14px;
+    line-height: 118%;
+    letter-spacing: -0.04em;
+    text-transform: uppercase;
+    color: #1b414b;
+    margin-right: 118px;
+}
+
+.jachtlist-table-titles-2 {
+font-weight: 400;
+    font-size: 12px;
+    line-height: 117%;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #040306;
+    opacity: 0.4;
+}
+
+.jachtlist-table-titles-list {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 16px;
+}
+
+.jachtlist-table-title {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 118%;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #040306;
+    opacity: 0.4;
+}
+
+.jachtlist-table-list {
+font-weight: 400;
+    font-size: 14px;
+    line-height: 118%;
+    letter-spacing: 0.03em;
+    color: #040306;
+}
+
+.jachtlist-table-item:not(:last-child) {
+    margin-bottom: 6px;
+}
+
+.jachtlist-btn {
+    border: 1px solid rgba(251, 251, 251, 0.35);
+    border-radius: 15px;
+    padding: 14px 32px;
+    height: 46px;
+    background-color: transparent;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 129%;
+    letter-spacing: -0.02em;
+    color: #fbfbfb;
+    display: block;
+    margin: 0 auto;
+}
+
+/*---------------ADVANTAGES-------------*/
